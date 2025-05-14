@@ -1,4 +1,4 @@
-# What-Drives-Anime-Scores
+# What Drives Anime Scores?
 
 ## Introduction, Data Selection & Motivation  
 Anime studios produce dozens of series each season—but which factors drive high audience ratings? In this project, I explore a Kaggle anime metadata dataset to identify the combination of genres, themes, target demographics, and production features most strongly associated with weighted scores. As an avid TV enthusiast, I’m passionate about uncovering the patterns that make certain shows resonate. My goal is to give production houses a data-driven framework for greenlighting projects that mazimize viewer engagement. 
@@ -19,7 +19,7 @@ Anime studios produce dozens of series each season—but which factors drive hig
    - Ranked the top coefficients to derive actionable insights  
 
 ## Project Structure 
-
+```bash
 ├ README.md
 ├── code/
 │ └── analysis.py ← script version of the notebook
@@ -28,6 +28,7 @@ Anime studios produce dozens of series each season—but which factors drive hig
 └── docs/
 ├── project_paper.pdf ← detailed project report
 └── slide_deck.pdf ← summary presentation slides
+```
 
 ## Usage
   
@@ -35,13 +36,17 @@ Anime studios produce dozens of series each season—but which factors drive hig
    ```bash
    git clone https://github.com/shanayamehra/What-Drives-Anime-Scores.git
    cd What-Drives-Anime-Scores
-
-2. **Install dependencies**
-    pip install pandas numpy statsmodels matplotlib jupyter
-
-3. **Run the script**
+   ```
+2.  **Install dependencies**
+   ```bash
+   pip install pandas numpy statsmodels matplotlib jupyter
+   ```
+3.  **Run the script**
+   ```bash
    python code/analysis.py
+   ```
 
 ## Conclusion
 
-This regression study reveals that a mix of action/fantasy genres, shōnen demographic targeting, mid-length series formats (24–26 episodes), and renowned studios have the strongest positive impact on weighted scores. By prioritizing these characteristics, production teams can better allocate resources and greenlight projects with higher expected audience approval.
+This regression study reveals that a mix of action/fantasy genres, shōnen demographic targeting, mid-length series formats (24–26 episodes), and collaboration with renowned studios have the strongest positive impact on weighted anime scores. By prioritizing these characteristics, production teams can make data-driven decisions to greenlight projects that resonate best with audiences.
+
